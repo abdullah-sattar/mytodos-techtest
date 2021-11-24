@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+button {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0, 10px, 40px #6b3838;
+}
+
+button:hover {
+  background-image: linear-gradient(180deg, #e2c1c1, #ea8282);
+}
+
+body {
+  background-color: #232229;
+}
