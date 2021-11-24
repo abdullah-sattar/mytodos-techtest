@@ -2,12 +2,38 @@
     font-family: 'Jost', sans-serif;
 }
 
-.logo {
+.nav__logo {
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
 }
 
-button {
+.nav__btn {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
 
+.main__h1 {
+    font-size: 5vh;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.main__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6A7C;
+}
+
+.main__tasks {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.main__list {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6A7C;
 }

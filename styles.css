@@ -1,27 +1,92 @@
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 3%;
 }
 
 * {
   font-family: "Jost", sans-serif;
 }
 
-.logo {
+.nav__logo {
   font-size: 24px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
-button {
-  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
-  box-shadow: 0, 10px, 40px #6b3838;
+.nav__btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 
-button:hover {
+.main__h1 {
+  font-size: 5vh;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.main__text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6C6A7C;
+}
+
+.main__tasks {
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.main__list {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6C6A7C;
+}
+
+.nav__btn {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 25px 10px 25px;
+  border-radius: 12px;
+}
+
+.nav__btn:hover {
   background-image: linear-gradient(180deg, #e2c1c1, #ea8282);
 }
 
 body {
   background-color: #232229;
+}
+
+section {
+  margin-top: 20%;
+  margin-left: 5%;
+}
+
+.main__sec1 > form {
+  display: flex;
+  width: 50vh;
+  background-color: #2B2A33;
+  border: 2px dashed #6C6A7C;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.main__sec1 > form > .main__input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #2B2A33;
+}
+.main__sec1 > form > .main__btn {
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #E58181;
+  color: #232229;
 }
