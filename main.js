@@ -10,5 +10,5 @@ inputBtn.addEventListener("click", (event) => {
     completed.style.display = "none";
     // tasks.push(input.value);
     // console.log(tasks);
-    output.innerHTML = `<li><input type="checkbox">${input.value}</input></li>`
+    output.innerHTML += `<li><input type="checkbox">${input.value}</input></li>`
 });
