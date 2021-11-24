@@ -96,3 +96,26 @@ section {
     width: 70vh;
   }
 }
+@media screen and (min-width: 1024px) {
+  section {
+    margin-top: 10%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .main__sec1 > form {
+    width: 90vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  section {
+    margin-top: 5%;
+  }
+
+  .main__sec1 > form {
+    width: 120vh;
+  }
+}

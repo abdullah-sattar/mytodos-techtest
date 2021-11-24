@@ -12,6 +12,7 @@ section {
         padding: 10px;
         border-radius: 10px;
         margin-right: 20px;
+
         >.main__input {
             border: none;
             width: 100%;
@@ -20,6 +21,7 @@ section {
             border-radius: 10px;
             background-color: #2B2A33;
         }
+
         >.main__btn {
             border-radius: 50%;
             margin-right: 10px;
@@ -33,6 +35,36 @@ section {
     .main__sec1 {
         >form {
             width: 70vh;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section {
+        margin-top: 10%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .main__sec1 {
+        >form {
+            width: 90vh;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    section {
+        margin-top: 5%;
+    }
+
+    .main__sec1 {
+        >form {
+            width: 120vh;
         }
     }
 }
