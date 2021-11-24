@@ -90,3 +90,9 @@ section {
   background-color: #E58181;
   color: #232229;
 }
+
+@media screen and (min-width: 768px) {
+  .main__sec1 > form {
+    width: 70vh;
+  }
+}
